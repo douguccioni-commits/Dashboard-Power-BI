@@ -1,0 +1,19 @@
+﻿FuncionarioID;NomeFuncionario;CPF;DataNascimento;Sexo;EstadoCivil;Departamento;CodigoDepartamento;Cargo;NivelCargo;SalarioBase;TipoContrato;DataAdmissao;Supervisor;CódigoFalta;Descrição Falta;DiasAusentes;MesReferencia;Cidade Falta;UF;Regiao Falta;CargaHorariaSemanal;BonusMensal;HorasExtras;Turno
+;;;;;;;;;;;;;;;;;;;;;;;;
+dFuncionarios;;;;;;;;;;;;;;;;;;;;;;;;
+FuncionarioID;NomeFuncionario;CPF;DataNascimento;Sexo;EstadoCivil;CodigoDepartamento;Cargo;TipoContrato;DataAdmissao;Supervisor;CargaHorariaSemanal;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+dDepartamentos;;;;;;;;;;;;;;;;;;;;;;;;
+CodigoDepartamento;Departamento;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+dCargos;;;;;;;;;;;;;;;;;;;;;;;;
+Cargo;NivelCargo;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+dCidades;;;;;;;;;;;;;;;;;;;;;;;;
+Cidade Falta;UF;Regiao Falta;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+dMotivos;;;;;;;;;;;;;;;;;;;;;;;;
+CódigoFalta;Descrição Falta;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+fEventos ou fRH;;;;;;;;;;;;;;;;;;;;;;;;
+FuncionarioID;SalarioBase;CódigoFalta;DiasAusentes;MesReferencia;Cidade Falta;BonusMensal;HorasExtras;Turno;;;;;;;;;;;;;;;;
