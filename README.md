@@ -21,4 +21,4 @@ Realizei a normalização dos dados, criando um **Modelo Estrela (Star Schema)**
 *   **Power Query** (Limpeza e transformação)
 
 ## 📸 Visualização do Dashboard
-![Print do Dashboard](COLOQUE_AQUI_O_NOME_DA_IMAGEM.png)
+![Print do Dashboard](Dash Power BI.png)
