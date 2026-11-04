@@ -1,24 +1,52 @@
-# Dashboard de Gestão de Recursos Humanos (People Analytics)
+# 📊 Painel Estratégico de RH | Power BI
 
-Este projeto foi desenvolvido para monitorar indicadores estratégicos de Recursos Humanos, como absenteísmo, horas extras, bônus e distribuição salarial.
+## Sobre o projeto
 
-## 🎯 O Desafio
-A base de dados original (`RH.csv`) estava em um formato "plano" (uma única tabela com todas as informações), o que dificultava a análise cruzada e a performance.
+Este projeto consiste no desenvolvimento de um **Painel Estratégico de Recursos Humanos**, utilizando Microsoft Power BI, com o objetivo de transformar dados em informações visuais que auxiliem na análise e no acompanhamento de indicadores de RH.
 
-## 🛠️ Solução e Modelagem
-Realizei a normalização dos dados, criando um **Modelo Estrela (Star Schema)** para otimizar as consultas e a navegação:
-*   **Tabela Fato:** `fEventos ou fRH` (contém os registros mensais de faltas, bônus e horas extras).
-*   **Tabelas Dimensão:** `dFuncionarios`, `dDepartamentos`, `dCargos`, `dCidades`, `dMotivos`.
+O dashboard foi desenvolvido para apresentar diferentes perspectivas sobre ocorrências, ausências, remuneração e horas extras, facilitando a interpretação dos dados e a identificação de padrões.
 
-## 📊 Principais Insights
-*   O cargo de Supervisor e Assistente concentram o maior volume de horas extras.
-*   A maior parte das ausências é motivada por Licença Médica e Faltas Injustificadas.
-*   Existe uma variação salarial atípica dentro dos mesmos níveis de cargo, o que pode indicar necessidade de revisão na política de remuneração.
+## 🔗 Visualize o Dashboard
 
-## 💻 Tecnologias Utilizadas
-*   **Power BI** (Visualização e Modelagem)
-*   **DAX** (Criação de medidas e KPIs)
-*   **Power Query** (Limpeza e transformação)
+**Acesse o relatório interativo pelo link abaixo:**
 
-## 📸 Visualização do Dashboard
-![Print do Dashboard](Dash Power BI.png)
+👉 [CLIQUE AQUI PARA VISUALIZAR O DASHBOARD](https://app.powerbi.com/view?r=eyJrIjoiZWU0Nzg3MjEtYjZhNS00ZDJiLTk1YTgtMTE0NDRjNmFkNjYxIiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9)
+
+*O relatório poderá ser visualizado diretamente pelo navegador, sem necessidade de baixar o arquivo PBIX, desde que o acesso público esteja habilitado.*
+
+## 📈 Indicadores e análises
+
+O painel contempla os seguintes indicadores:
+
+- Total de ocorrências;
+- Total de horas extras;
+- Total de dias ausentes;
+- Total de bônus acumulados;
+- Faltas injustificadas por mês;
+- Média salarial por nível;
+- Ausências por contrato;
+- Horas extras por cargo.
+
+## 🛠️ Tecnologias e ferramentas
+
+- **Microsoft Power BI:** desenvolvimento e visualização dos dados;
+- **Power Query:** preparação e transformação dos dados;
+- **DAX:** criação de medidas e indicadores;
+- **CSV:** armazenamento e organização das bases de dados.
+
+## 📁 Estrutura do projeto
+
+O repositório disponibiliza os arquivos utilizados no desenvolvimento, incluindo:
+
+- Arquivo `.pbix` do Power BI;
+- Bases de dados em CSV;
+- Imagens e elementos visuais utilizados no dashboard;
+- Documentação do projeto.
+
+## 🎯 Objetivo
+
+Este projeto faz parte do meu desenvolvimento profissional na área de Dados e tem como objetivo aplicar conhecimentos de modelagem, transformação, análise e visualização de dados em uma situação prática.
+
+---
+
+**Desenvolvido como projeto de estudo e portfólio em Business Intelligence.**
